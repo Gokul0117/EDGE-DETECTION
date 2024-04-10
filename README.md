@@ -34,13 +34,7 @@ import matplotlib.pyplot as plt
 img=cv2.imread("dog.jpeg",0)
 gray=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
 gray = cv2.GaussianBlur(gray,(3,3),0)
-## Output:
-### SOBEL EDGE DETECTOR
 
-![output](./sobel.png)
-
-### LAPLACIAN EDGE DETECTOR
-![output](./laplacian.png)
 ```
 ## Sobel edge detection:
 ### Sobel x axis:
